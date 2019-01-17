@@ -1,0 +1,167 @@
+// Import app variables
+@import 'app-variables';
+
+// Import the theme’s main ruleset - both index and platform specific.
+@import '~nativescript-theme-core/scss/index';
+@import '~nativescript-theme-core/scss/platforms/index.android';
+
+// Import common styles
+@import 'app-common';
+ 
+.b {
+  font-weight: bold;
+}
+
+.i {
+  font-style: italic;
+}
+
+.btn-green {
+  background-color: $bwda-green;
+  color: $white;
+}
+
+.btn-red {
+  background-color: $bwda-red;
+  color: $white;
+}
+
+.btn-orange {
+  background-color: $bwda-orange;
+  color: $white;
+}
+
+// Action Bar
+
+.action-bar-icon {
+  font-family: "FontAwesome";
+  font-size: 25;
+  padding-right: 10;
+}
+
+// Side Drawer
+
+.side-drawer-img-resize {
+  width:70%;
+  margin-top: 20;
+}
+
+.side-drawer-menu button {
+  padding: 20;
+  margin-left: 20;
+  margin-right: 20;
+  margin-bottom: 20;
+  background-color: white;
+}
+
+.side-drawer-first-button {
+  margin-top: 20;
+}
+
+.side-drawer-menu .side-drawer-button-logout {
+  background-color: #c7c9cc;
+}
+
+.side-drawer-background {
+  background-color: $bwda-gray;
+}
+
+// bwda-checklist
+
+// bwda-checklist-item
+
+.bwda-checklist-item-font {
+  font-size: xx-large;
+}
+
+.bwda-checklist-item-borda {
+  border-bottom: 2px solid black;
+}
+
+// bwda-resumo-os
+
+.bwda-resumo-os-id-os {
+  color: $bwda-orange;
+  font-size: 30;
+}
+
+.bwda-resumo-os-name {
+  font-size: 30;
+}
+
+// m00100-login
+
+.login-img-resize {
+  width:50%;
+}
+
+.login-page {
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-form {
+  min-width: 300px;
+  margin-left: 30;
+  margin-right: 30;
+  flex-grow: 2;
+  vertical-align: middle;
+}
+
+// m00200-landing-dashboard
+
+.landing-dashboard-card-layout {
+  background-color: white;
+  margin-bottom: 20;
+  margin-left: 20;
+  margin-right: 20;
+  padding: 15;
+  height: 130;
+}
+
+.landing-dashboard-first-card {
+ margin-top: 20;
+}
+
+.landing-dashboard-card-titulo {
+  font-size: 20;
+}
+
+.landing-dashboard-card-numero {
+  text-align: center;
+  font-size: 50;
+  color: $bwda-orange;
+}
+
+.landing-dashboard-card-subtitulo {
+  font-size: 30;
+  text-align: center;
+  color: $bwda-orange;
+}
+
+// m00500-listagem-prioritaria
+
+.listagem-prioritaria-os-card {
+  background-color: white;
+  margin-top: 10;
+  margin-bottom: 10;
+  margin-left: 20;
+  margin-right: 20;
+  padding: 15;
+  border-color: white;
+}
+
+.listagem-prioritaria-background {
+  background-color: $bwda-gray-background;
+}
+
+// m00700-checklist-de-os
+
+.checklist-os-button {
+  margin: 15;
+  padding: 20;
+}
+
+.checklist-os-form {
+  padding:20;
+}

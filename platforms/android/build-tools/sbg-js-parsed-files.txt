@@ -1,0 +1,4 @@
+/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/assets/app/tns-java-classes.js
+/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/assets/app/bundle.js
+/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/assets/app/starter.js
+/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/assets/app/vendor.js

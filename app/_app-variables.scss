@@ -1,0 +1,64 @@
+// Import the theme’s variables. If you’re using a color scheme
+// other than “light”, switch the path to the alternative scheme,
+// for example '~nativescript-theme-core/scss/dark'.
+@import '~nativescript-theme-core/scss/light';
+
+// Custom colors
+$background-dark: #F8F8F8 !default;
+$background-light: #FFFFFF !default;
+
+$blue-dark: #022734 !default;
+$blue-light: #02556E !default;
+$blue-50: rgba($blue-dark, 0.5) !default;
+$blue-20: rgba($blue-dark, 0.2) !default;
+$blue-10: rgba($blue-dark, 0.1) !default;
+
+$accent-dark: #3A53FF !default;
+$accent-light: #4781FE !default;
+
+$success-dark: #06CE6A !default;
+$success-light: #00E676 !default;
+
+$warning-dark: #f39c11 !default;
+$warning-light: #F2C112 !default;
+
+$error-dark: #D84039 !default;
+$error-light: #ED473F !default;
+
+$midnight-dark: #0F336D !default;
+$midnight-light: #14418B !default;
+
+$night-dark: #023141 !default;
+$night-light: #01526C !default;
+
+// BWDA colors
+
+$bwda-gray: #465a65 !default;
+$bwda-gray-background: #fafafa !default;
+$bwda-light-gray: #607d8b !default;
+$bwda-orange: #e57600 !default;
+$bwda-red: #ff5252;
+$bwda-yellow: #ffc107;
+$bwda-green: #4caf50;
+$bwda-white: #ffffff;
+
+// Sizes
+$base-font-size: 11;
+
+$border-width: 1;
+$border-radius: 3;
+
+
+/**
+ * Theme variables overrides
+**/
+
+// Colors
+$background: $bwda-gray-background;
+
+// ActionBar
+$ab-background: $bwda-gray;
+$ab-color: $white;
+
+// Buttons
+$btn-color: $bwda-light-gray;

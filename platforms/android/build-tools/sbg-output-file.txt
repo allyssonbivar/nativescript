@@ -1,0 +1,1 @@
+/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/java

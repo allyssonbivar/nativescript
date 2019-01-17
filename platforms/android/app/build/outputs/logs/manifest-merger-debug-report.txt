@@ -1,0 +1,467 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [com.android.support:design:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/89612e6d3900d939c3f771b5c9eb5cd3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b67699f5a8617a15ad7345f8cf695332/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/a98b2003ee0439f452b1c3100dbe1605/AndroidManifest.xml:2:1-5:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.2.0.aar/e7595ccc6c858dd2d7ecd854416ee97a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.10.aar/d1eb38684a055fca904c38decde958c5/AndroidManifest.xml:2:1-14:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.1.5.aar/f89f6e68e0eb826f5c6b04f271863d9d/AndroidManifest.xml:2:1-19:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:2:1-20:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.10.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.10.0.aar/c399edc273c1b984bbc9b283598bb3bd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.2] /home/techpar/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/fefad1f7ae8b614190061c724b3d5f79/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/1608edb25d5fd3157db36ad7c0576087/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/2e05c6e0f7622a82a2fd79880a3d1fc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/c940a6775b45319e2ade70dd476a1011/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/da4a5df2d761cd1d9da3b90fa98ba786/AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized-with-inspector:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/06a89a16f208b3bd39200c90ff0e5950/AndroidManifest.xml:2:1-11:12
+MERGED from [:androidutils:] /home/techpar/.gradle/caches/transforms-1/files-1.1/androidutils.aar/fc0cb4cc07ff9896fc66278740ea84bf/AndroidManifest.xml:2:1-17:12
+MERGED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:2:1-23:12
+MERGED from [:nativescript_geolocation:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ef403ca012423f7dee7cb6a5b387ad0a/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:2:1-16:12
+MERGED from [:nativescript_socket.io:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/77b24ce342387c2fc50e4b1b944f5f18/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSSideDrawer-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/TNSSideDrawer-release.aar/0864f0544a76bfcd213fc0dda0d12693/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCore-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/659c1d30377d8eb1846a6566718eac75/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/1e83efb29a46cbd86dc9be4d962f44ca/AndroidManifest.xml:2:1-14:12
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/1bc1a70aeb52a97d718cce5dc5196825/AndroidManifest.xml:2:1-10:12
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/6bf87bffbc09fd1da03a5fb7f55b3bbb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/79ea584aa95e10368e7c3f9b62c48887/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4d06d02a18079d31fdda7a3b69e1760a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/bf8bb218cc9b8052c049ca2e727b85d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76b427448539248799826901043bd58b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/29ae47c1b17b9bc5e7fff03ee9ae4070/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9990e7f5e06d17a2f5a3c0648de8d6f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e6af98c1e05f4ec08d1a0e241f823ca9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cae94bf7fb5c1edd319f2fc2c23e7779/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3f84d4afe1a923e893427b35bd4f0413/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/73bc61d244b606785252c94d1263b5f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/028dede87fb0f82c8f5b37e843da8d27/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/14154d2d3b47e0d75b4d5bf1e71b257b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e227db1a16d9fc10cf9a101d8ec3273c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a2f9e810edbf4086d627eb44e99eb050/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6392a6d0e4b90cd40424e6e1f7d56588/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7e478427124d0bf19d216b86c6ab02/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9487df461703f42ce132ecae5219616f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f41ec605c0005b811e3b2b917cdf0eca/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/16816ee17dbbe8882a40eeb35c2e6539/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/616e3a5342ed784d79d4508c3164d630/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4dc0f2f883bb1f8425fa0c93c01630de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bb083d5eb4a63310a57e3078c77ce2a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a6032bf99459d57e87de3fa210e3679c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a239b12252e69fb37c49545bb6773c25/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/df5880288a3e6f90ca35c3a88b473d3e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/cc505275ad43bc9b6da5b2d4fe3fb950/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/445d405d9612e2ff50a9af86fcdbfd21/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:3:2-33
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:5:2-29
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:4:2-29
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.android.support:design:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/89612e6d3900d939c3f771b5c9eb5cd3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/89612e6d3900d939c3f771b5c9eb5cd3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b67699f5a8617a15ad7345f8cf695332/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b67699f5a8617a15ad7345f8cf695332/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/a98b2003ee0439f452b1c3100dbe1605/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/a98b2003ee0439f452b1c3100dbe1605/AndroidManifest.xml:3:5-43
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.2.0.aar/e7595ccc6c858dd2d7ecd854416ee97a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.2.0.aar/e7595ccc6c858dd2d7ecd854416ee97a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.10.aar/d1eb38684a055fca904c38decde958c5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.10.aar/d1eb38684a055fca904c38decde958c5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.1.5.aar/f89f6e68e0eb826f5c6b04f271863d9d/AndroidManifest.xml:11:5-13:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.1.5.aar/f89f6e68e0eb826f5c6b04f271863d9d/AndroidManifest.xml:11:5-13:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.10.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.10.0.aar/c399edc273c1b984bbc9b283598bb3bd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.10.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.10.0.aar/c399edc273c1b984bbc9b283598bb3bd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] /home/techpar/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/fefad1f7ae8b614190061c724b3d5f79/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/techpar/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/fefad1f7ae8b614190061c724b3d5f79/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/1608edb25d5fd3157db36ad7c0576087/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/1608edb25d5fd3157db36ad7c0576087/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/2e05c6e0f7622a82a2fd79880a3d1fc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/2e05c6e0f7622a82a2fd79880a3d1fc7/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/c940a6775b45319e2ade70dd476a1011/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/c940a6775b45319e2ade70dd476a1011/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/da4a5df2d761cd1d9da3b90fa98ba786/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/da4a5df2d761cd1d9da3b90fa98ba786/AndroidManifest.xml:20:5-44
+MERGED from [:nativescript-optimized-with-inspector:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/06a89a16f208b3bd39200c90ff0e5950/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/06a89a16f208b3bd39200c90ff0e5950/AndroidManifest.xml:7:5-9:41
+MERGED from [:androidutils:] /home/techpar/.gradle/caches/transforms-1/files-1.1/androidutils.aar/fc0cb4cc07ff9896fc66278740ea84bf/AndroidManifest.xml:7:5-9:41
+MERGED from [:androidutils:] /home/techpar/.gradle/caches/transforms-1/files-1.1/androidutils.aar/fc0cb4cc07ff9896fc66278740ea84bf/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_geolocation:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ef403ca012423f7dee7cb6a5b387ad0a/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_geolocation:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ef403ca012423f7dee7cb6a5b387ad0a/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_socket.io:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/77b24ce342387c2fc50e4b1b944f5f18/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_socket.io:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/77b24ce342387c2fc50e4b1b944f5f18/AndroidManifest.xml:7:5-47
+MERGED from [:TNSSideDrawer-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/TNSSideDrawer-release.aar/0864f0544a76bfcd213fc0dda0d12693/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/TNSSideDrawer-release.aar/0864f0544a76bfcd213fc0dda0d12693/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/659c1d30377d8eb1846a6566718eac75/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/659c1d30377d8eb1846a6566718eac75/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/1e83efb29a46cbd86dc9be4d962f44ca/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/1e83efb29a46cbd86dc9be4d962f44ca/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/1bc1a70aeb52a97d718cce5dc5196825/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/1bc1a70aeb52a97d718cce5dc5196825/AndroidManifest.xml:6:5-43
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/6bf87bffbc09fd1da03a5fb7f55b3bbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/6bf87bffbc09fd1da03a5fb7f55b3bbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/79ea584aa95e10368e7c3f9b62c48887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/79ea584aa95e10368e7c3f9b62c48887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4d06d02a18079d31fdda7a3b69e1760a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4d06d02a18079d31fdda7a3b69e1760a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/bf8bb218cc9b8052c049ca2e727b85d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/bf8bb218cc9b8052c049ca2e727b85d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76b427448539248799826901043bd58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76b427448539248799826901043bd58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/29ae47c1b17b9bc5e7fff03ee9ae4070/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/29ae47c1b17b9bc5e7fff03ee9ae4070/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9990e7f5e06d17a2f5a3c0648de8d6f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9990e7f5e06d17a2f5a3c0648de8d6f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e6af98c1e05f4ec08d1a0e241f823ca9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e6af98c1e05f4ec08d1a0e241f823ca9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cae94bf7fb5c1edd319f2fc2c23e7779/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cae94bf7fb5c1edd319f2fc2c23e7779/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3f84d4afe1a923e893427b35bd4f0413/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3f84d4afe1a923e893427b35bd4f0413/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/73bc61d244b606785252c94d1263b5f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/73bc61d244b606785252c94d1263b5f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/028dede87fb0f82c8f5b37e843da8d27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/028dede87fb0f82c8f5b37e843da8d27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/14154d2d3b47e0d75b4d5bf1e71b257b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/14154d2d3b47e0d75b4d5bf1e71b257b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e227db1a16d9fc10cf9a101d8ec3273c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e227db1a16d9fc10cf9a101d8ec3273c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a2f9e810edbf4086d627eb44e99eb050/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a2f9e810edbf4086d627eb44e99eb050/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6392a6d0e4b90cd40424e6e1f7d56588/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6392a6d0e4b90cd40424e6e1f7d56588/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7e478427124d0bf19d216b86c6ab02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7e478427124d0bf19d216b86c6ab02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9487df461703f42ce132ecae5219616f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9487df461703f42ce132ecae5219616f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f41ec605c0005b811e3b2b917cdf0eca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f41ec605c0005b811e3b2b917cdf0eca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/16816ee17dbbe8882a40eeb35c2e6539/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/16816ee17dbbe8882a40eeb35c2e6539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/616e3a5342ed784d79d4508c3164d630/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/616e3a5342ed784d79d4508c3164d630/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4dc0f2f883bb1f8425fa0c93c01630de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4dc0f2f883bb1f8425fa0c93c01630de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bb083d5eb4a63310a57e3078c77ce2a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bb083d5eb4a63310a57e3078c77ce2a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a6032bf99459d57e87de3fa210e3679c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a6032bf99459d57e87de3fa210e3679c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a239b12252e69fb37c49545bb6773c25/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a239b12252e69fb37c49545bb6773c25/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/df5880288a3e6f90ca35c3a88b473d3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/df5880288a3e6f90ca35c3a88b473d3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/cc505275ad43bc9b6da5b2d4fe3fb950/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/cc505275ad43bc9b6da5b2d4fe3fb950/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/445d405d9612e2ff50a9af86fcdbfd21/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/445d405d9612e2ff50a9af86fcdbfd21/AndroidManifest.xml:20:5-44
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+	android:targetSdkVersion
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		MERGED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		MERGED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		MERGED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:17:2-61
+MERGED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:9:5-65
+MERGED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:17:19-59
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:18:2-76
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:18:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:19:2-77
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:19:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:20:2-63
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.10.aar/d1eb38684a055fca904c38decde958c5/AndroidManifest.xml:12:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.10.aar/d1eb38684a055fca904c38decde958c5/AndroidManifest.xml:12:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:16:5-67
+MERGED from [:nativescript_socket.io:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/77b24ce342387c2fc50e4b1b944f5f18/AndroidManifest.xml:9:5-67
+MERGED from [:nativescript_socket.io:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/77b24ce342387c2fc50e4b1b944f5f18/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:20:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:21:2-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:21:19-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:24:22-63
+application
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:26:2-53:16
+MERGED from [com.android.support:design:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/89612e6d3900d939c3f771b5c9eb5cd3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/89612e6d3900d939c3f771b5c9eb5cd3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/a98b2003ee0439f452b1c3100dbe1605/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/a98b2003ee0439f452b1c3100dbe1605/AndroidManifest.xml:4:5-19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.1.5.aar/f89f6e68e0eb826f5c6b04f271863d9d/AndroidManifest.xml:15:5-17:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.1.5.aar/f89f6e68e0eb826f5c6b04f271863d9d/AndroidManifest.xml:15:5-17:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/1608edb25d5fd3157db36ad7c0576087/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/1608edb25d5fd3157db36ad7c0576087/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:19:5-21:19
+MERGED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:21:5-32:19
+MERGED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:21:5-32:19
+MERGED from [:androidutils:] /home/techpar/.gradle/caches/transforms-1/files-1.1/androidutils.aar/fc0cb4cc07ff9896fc66278740ea84bf/AndroidManifest.xml:11:5-15:19
+MERGED from [:androidutils:] /home/techpar/.gradle/caches/transforms-1/files-1.1/androidutils.aar/fc0cb4cc07ff9896fc66278740ea84bf/AndroidManifest.xml:11:5-15:19
+MERGED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:11:5-21:19
+MERGED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:11:5-21:19
+MERGED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:12:5-14:19
+MERGED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:12:5-14:19
+MERGED from [:widgets-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/1e83efb29a46cbd86dc9be4d962f44ca/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /home/techpar/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/1e83efb29a46cbd86dc9be4d962f44ca/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/1bc1a70aeb52a97d718cce5dc5196825/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/1bc1a70aeb52a97d718cce5dc5196825/AndroidManifest.xml:8:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7e478427124d0bf19d216b86c6ab02/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7e478427124d0bf19d216b86c6ab02/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9487df461703f42ce132ecae5219616f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9487df461703f42ce132ecae5219616f/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7a7e478427124d0bf19d216b86c6ab02/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [:androidutils:] /home/techpar/.gradle/caches/transforms-1/files-1.1/androidutils.aar/fc0cb4cc07ff9896fc66278740ea84bf/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:30:3-35
+	android:icon
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:29:3-32
+	android:allowBackup
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:28:3-29
+	android:theme
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:31:3-34
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:27:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:33:3-45:14
+	android:label
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:35:4-49
+	android:configChanges
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:36:4-65
+	android:theme
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:37:4-44
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:34:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:39:4-87
+	android:resource
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:39:50-84
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:39:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:41:4-44:20
+action#android.intent.action.MAIN
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:42:5-57
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:42:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:43:5-65
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:43:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:46:3-57
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:46:13-55
+service#com.tns.BgService
+ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:48:3-52:31
+	android:enabled
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:51:5-27
+	android:exported
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:52:5-28
+	android:permission
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:50:5-61
+	android:name
+		ADDED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:49:5-37
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.10.aar/d1eb38684a055fca904c38decde958c5/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/c940a6775b45319e2ade70dd476a1011/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/c940a6775b45319e2ade70dd476a1011/AndroidManifest.xml:11:5-79
+MERGED from [:nativescript_geolocation:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ef403ca012423f7dee7cb6a5b387ad0a/AndroidManifest.xml:9:5-79
+MERGED from [:nativescript_geolocation:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ef403ca012423f7dee7cb6a5b387ad0a/AndroidManifest.xml:9:5-79
+MERGED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:10:5-79
+MERGED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.10.aar/d1eb38684a055fca904c38decde958c5/AndroidManifest.xml:11:22-76
+service#com.mapbox.android.telemetry.TelemetryService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.1.5.aar/f89f6e68e0eb826f5c6b04f271863d9d/AndroidManifest.xml:16:9-81
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.1.5.aar/f89f6e68e0eb826f5c6b04f271863d9d/AndroidManifest.xml:16:18-78
+uses-feature#0x00020000
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:19:5-58
+MERGED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:19:5-58
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:14:9-33
+		MERGED from /home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/src/main/AndroidManifest.xml:12:5-14:36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:13:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/AndroidManifest.xml:18:22-73
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/5168b8f6e8d0f8bd52d15f6ecc89f7b7/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/AndroidManifest.xml:20:20-65
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:10:9-61
+uses-feature#android.hardware.location
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:12:19-59
+uses-feature#android.hardware.location.gps
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:14:9-53
+uses-feature#android.hardware.telephony
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:17:9-50
+service#com.mapzen.android.lost.internal.FusedLocationProviderService
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:22:9-24:39
+	android:process
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:23:13-89
+service#com.mapzen.android.lost.internal.GeofencingIntentService
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:25:9-29:19
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:25:18-89
+intent-filter#action:name:com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:26:13-28:29
+action#com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:27:17-91
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:27:25-88
+service#com.mapzen.android.lost.internal.DwellIntentService
+ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:30:9-31:19
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/techpar/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/a2ce9e82241f7eb0130c926b03c0b2e4/AndroidManifest.xml:30:18-84
+provider#android.support.v4.content.FileProvider
+ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:nativescript_camera:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/25ad6ce766c8639e63b9500a34d5cdd0/AndroidManifest.xml:18:17-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:9:22-78
+service#com.mapbox.services.android.telemetry.service.TelemetryService
+ADDED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:13:9-98
+	android:name
+		ADDED from [:nativescript_mapbox:] /home/techpar/.gradle/caches/transforms-1/files-1.1/nativescript_mapbox.aar/c7123c5e43b4da1f05f39669058bf353/AndroidManifest.xml:13:18-95
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/techpar/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/bfdf8744285e8bbf12ba3f5756309bdf/AndroidManifest.xml:24:13-83
