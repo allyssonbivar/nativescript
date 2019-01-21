@@ -125614,43 +125614,6 @@ module.exports = function (module) {
   return module;
 };
 
-/***/ }),
-
-/***/ "./bgservice.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var tns_core_modules_application__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/tns-core-modules/application/application.js");
-/* harmony import */ var tns_core_modules_application__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tns_core_modules_application__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var tns_core_modules_platform__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("../node_modules/tns-core-modules/platform/platform.js");
-/* harmony import */ var tns_core_modules_platform__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(tns_core_modules_platform__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-if (tns_core_modules_application__WEBPACK_IMPORTED_MODULE_0__["android"]) {
-  const {
-    sdkVersion
-  } = tns_core_modules_platform__WEBPACK_IMPORTED_MODULE_1__["device"]; //Here we get what SDK we are dealing with, in order to set the correct job
-
-  if (sdkVersion * 1 < 26) {// android.app.Service.extend("com.tns.BgService", {
-    //   onStartCommand(intent, flags, startId) {},
-    //   onCreate() {},
-    //   onBind(intent) {},
-    //   onUnBind(intent) {},
-    //   onDestroy() {},
-    // });
-  } else {// android.app.job.JobService.extend("com.tns.BgService", {
-      //   onStartJob(params) {
-      //     console.log("Starting job");
-      //   },
-      //   onStopJob() {
-      //     console.log("Stopping job");
-      //   }
-      // });
-    }
-} // https: //github.com/NativeScript/nativescript-geolocation/pull/162/files
-
 /***/ })
 
 }]);

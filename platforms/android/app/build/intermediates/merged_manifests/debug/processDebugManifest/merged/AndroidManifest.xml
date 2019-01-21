@@ -73,9 +73,9 @@
         <activity android:name="com.tns.ErrorReportActivity" />
 
         <service
-            android:name="com.tns.BgService"
+            android:name="com.tns.notifications.MyJobService"
             android:enabled="true"
-            android:exported="true"
+            android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
         <service android:name="com.mapbox.android.telemetry.TelemetryService" />
 

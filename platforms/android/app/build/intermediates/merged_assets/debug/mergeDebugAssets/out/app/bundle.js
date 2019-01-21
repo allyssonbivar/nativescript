@@ -3549,6 +3549,17 @@ webpackEmptyContext.id = "./ sync recursive (root|page)\\.(xml|css|js|ts|scss)$"
 
 /***/ }),
 
+/***/ "./activities/NotificationActivity.js":
+/***/ (function(module, exports) {
+
+android.app.Activity.extend("com.tns.activities.NotificationActivity", {
+  onCreate: function (bundle) {
+    _super.prototype.onCreate.call(this, bundle);
+  }
+});
+
+/***/ }),
+
 /***/ "./api.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3744,7 +3755,8 @@ __webpack_require__.r(__webpack_exports__);
         if (applicationCheckPlatform.android && !global["__snapshot"]) {
             __webpack_require__("../node_modules/tns-core-modules/ui/frame/frame.js");
 __webpack_require__("../node_modules/tns-core-modules/ui/frame/activity.js");
-__webpack_require__("./bgservice.js");
+__webpack_require__("./activities/NotificationActivity.js");
+__webpack_require__("./notifications/MyJobService.js");
         }
 
         
@@ -3758,7 +3770,18 @@ __webpack_require__("./bgservice.js");
             
         __webpack_require__("../node_modules/tns-core-modules/bundle-entry-points.js");
         
- //https://nativescript-vue.org/en/docs/getting-started/vue-devtools/
+
+
+var Observable = __webpack_require__("../node_modules/tns-core-modules/data/observable/observable.js").Observable;
+
+var application = __webpack_require__("../node_modules/tns-core-modules/application/application.js");
+
+var utils = __webpack_require__("../node_modules/tns-core-modules/utils/utils.js");
+
+var jobScheduler = __webpack_require__("./notifications/job-scheduler.js");
+
+jobScheduler.scheduleJob(utils.ad.getApplicationContext());
+console.log("depois do job-scheduler"); //https://nativescript-vue.org/en/docs/getting-started/vue-devtools/
 
 
 const env = "development" || false;
@@ -4634,6 +4657,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_bwda_time_picker_vue_vue_type_template_id_35b8ed8e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./notifications/MyJobService.js":
+/***/ (function(module, exports) {
+
+android.app.job.JobService.extend("com.tns.notifications.MyJobService", {
+  onStartJob: function (params) {
+    console.log("Executando Job ...");
+    console.log("Rodando JOb ...");
+    return false;
+  },
+  onStopJob: function () {
+    console.log("Stopping job ...");
+  }
+});
+
+/***/ }),
+
+/***/ "./notifications/job-scheduler.js":
+/***/ (function(module, exports) {
+
+function scheduleJob(context) {
+  var component = new android.content.ComponentName(context, com.tns.notifications.MyJobService.class);
+  console.log("Rodando 2 JOb ...");
+  const builder = new android.app.job.JobInfo.Builder(1, component);
+  builder.setPeriodic(15 * 60 * 1000);
+  builder.setRequiresCharging(true);
+  const jobScheduler = context.getSystemService(android.content.Context.JOB_SCHEDULER_SERVICE); //console.log("Job Scheduled: " + jobScheduler.schedule(builder.build()));
+
+  jobScheduler.schedule(builder.build());
+}
+
+module.exports.scheduleJob = scheduleJob;
 
 /***/ }),
 

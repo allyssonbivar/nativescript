@@ -1,9 +1,10 @@
 import "./app.scss";
 import Vue from "nativescript-vue";
-var Observable = require("data/observable").Observable;
-var application = require("application");
-var utils = require("utils/utils");
-var jobScheduler = require("./notifications/job-scheduler");
+import {
+	createViewModel
+  } from "./main-view-model"
+createViewModel.createViewModel();
+console.log("depois do job-scheduler");
 //https://nativescript-vue.org/en/docs/getting-started/vue-devtools/
 import VueDevtools from "nativescript-vue-devtools";
 const env = process.env.NODE_ENV || "development";
@@ -79,9 +80,11 @@ Vue.component("M00800ComentariosAtividade", M00800ComentariosAtividade);
 Vue.component("M00900ComentariosOS", M00900ComentariosOS);
 Vue.component("M01000MidiasOS", M01000MidiasOS);
 
+
+
 Vue.config.silent = false
 Vue.config.debug = true
-jobScheduler.scheduleJob(utils.ad.getApplicationContext());
+
 new Vue({
 	store,
 	name: "bwda",

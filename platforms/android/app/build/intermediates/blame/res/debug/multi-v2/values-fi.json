@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
+            "outputFile": "/home/techpar/Documentos/native/nativescript/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "/home/techpar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/da4a5df2d761cd1d9da3b90fa98ba786/res/values-fi/values-fi.xml",

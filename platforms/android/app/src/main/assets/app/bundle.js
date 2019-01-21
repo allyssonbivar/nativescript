@@ -3535,17 +3535,43 @@ webpackContext.id = "./ sync ^\\.\\/app\\.(css|scss|less|sass)$";
 /***/ }),
 
 /***/ "./ sync recursive (root|page)\\.(xml|css|js|ts|scss)$":
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./main-page.js": "./main-page.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./ sync recursive (root|page)\\.(xml|css|js|ts|scss)$";
+
+/***/ }),
+
+/***/ "./activities/NotificationActivity.js":
 /***/ (function(module, exports) {
 
-function webpackEmptyContext(req) {
-	var e = new Error("Cannot find module '" + req + "'");
-	e.code = 'MODULE_NOT_FOUND';
-	throw e;
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = "./ sync recursive (root|page)\\.(xml|css|js|ts|scss)$";
+android.app.Activity.extend("com.tns.activities.NotificationActivity", {
+  onCreate: function (bundle) {
+    _super.prototype.onCreate.call(this, bundle);
+  }
+});
 
 /***/ }),
 
@@ -3713,38 +3739,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_app_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var nativescript_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("../node_modules/nativescript-vue/dist/index.js");
 /* harmony import */ var nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(nativescript_vue__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("../node_modules/nativescript-vue-devtools/index.js");
-/* harmony import */ var nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("../node_modules/nativescript-ui-sidedrawer/vue/side-drawer-vue-directives.js");
-/* harmony import */ var nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_bwda_app_shell_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./components/bwda-app-shell.vue");
-/* harmony import */ var _components_bwda_resumo_os_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./components/bwda-resumo-os.vue");
-/* harmony import */ var _components_bwda_detalhes_adicionais_os_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./components/bwda-detalhes-adicionais-os.vue");
-/* harmony import */ var _components_bwda_atividade_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./components/bwda-atividade.vue");
-/* harmony import */ var _components_bwda_checklist_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./components/bwda-checklist.vue");
-/* harmony import */ var _components_bwda_checklist_item_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./components/bwda-checklist-item.vue");
-/* harmony import */ var _components_bwda_checklist_item_resposta_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("./components/bwda-checklist-item-resposta.vue");
-/* harmony import */ var _components_bwda_date_picker_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("./components/bwda-date-picker.vue");
-/* harmony import */ var _components_bwda_time_picker_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("./components/bwda-time-picker.vue");
-/* harmony import */ var _components_bwda_sim_nao_na_vue__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__("./components/bwda-sim-nao-na.vue");
-/* harmony import */ var _components_bwda_get_picture_vue__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__("./components/bwda-get-picture.vue");
-/* harmony import */ var _views_m00100_login_vue__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__("./views/m00100-login.vue");
-/* harmony import */ var _views_m00200_landing_dashboard_vue__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__("./views/m00200-landing-dashboard.vue");
-/* harmony import */ var _views_m00300_agenda_de_os_vue__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__("./views/m00300-agenda-de-os.vue");
-/* harmony import */ var _views_m00400_mapa_vue__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__("./views/m00400-mapa.vue");
-/* harmony import */ var _views_m00500_listagem_prioritaria_vue__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__("./views/m00500-listagem-prioritaria.vue");
-/* harmony import */ var _views_m00600_detalhe_de_os_vue__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__("./views/m00600-detalhe-de-os.vue");
-/* harmony import */ var _views_m00700_checklist_os_vue__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__("./views/m00700-checklist-os.vue");
-/* harmony import */ var _views_m00800_comentarios_atividade_os_vue__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__("./views/m00800-comentarios-atividade-os.vue");
-/* harmony import */ var _views_m00900_comentarios_os_vue__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__("./views/m00900-comentarios-os.vue");
-/* harmony import */ var _views_m01000_midias_os_vue__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__("./views/m01000-midias-os.vue");
-/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__("./store.js");
+/* harmony import */ var _main_view_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./main-view-model.js");
+/* harmony import */ var _main_view_model__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_main_view_model__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("../node_modules/nativescript-vue-devtools/index.js");
+/* harmony import */ var nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("../node_modules/nativescript-ui-sidedrawer/vue/side-drawer-vue-directives.js");
+/* harmony import */ var nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_bwda_app_shell_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./components/bwda-app-shell.vue");
+/* harmony import */ var _components_bwda_resumo_os_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./components/bwda-resumo-os.vue");
+/* harmony import */ var _components_bwda_detalhes_adicionais_os_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./components/bwda-detalhes-adicionais-os.vue");
+/* harmony import */ var _components_bwda_atividade_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./components/bwda-atividade.vue");
+/* harmony import */ var _components_bwda_checklist_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./components/bwda-checklist.vue");
+/* harmony import */ var _components_bwda_checklist_item_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("./components/bwda-checklist-item.vue");
+/* harmony import */ var _components_bwda_checklist_item_resposta_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("./components/bwda-checklist-item-resposta.vue");
+/* harmony import */ var _components_bwda_date_picker_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("./components/bwda-date-picker.vue");
+/* harmony import */ var _components_bwda_time_picker_vue__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__("./components/bwda-time-picker.vue");
+/* harmony import */ var _components_bwda_sim_nao_na_vue__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__("./components/bwda-sim-nao-na.vue");
+/* harmony import */ var _components_bwda_get_picture_vue__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__("./components/bwda-get-picture.vue");
+/* harmony import */ var _views_m00100_login_vue__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__("./views/m00100-login.vue");
+/* harmony import */ var _views_m00200_landing_dashboard_vue__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__("./views/m00200-landing-dashboard.vue");
+/* harmony import */ var _views_m00300_agenda_de_os_vue__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__("./views/m00300-agenda-de-os.vue");
+/* harmony import */ var _views_m00400_mapa_vue__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__("./views/m00400-mapa.vue");
+/* harmony import */ var _views_m00500_listagem_prioritaria_vue__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__("./views/m00500-listagem-prioritaria.vue");
+/* harmony import */ var _views_m00600_detalhe_de_os_vue__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__("./views/m00600-detalhe-de-os.vue");
+/* harmony import */ var _views_m00700_checklist_os_vue__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__("./views/m00700-checklist-os.vue");
+/* harmony import */ var _views_m00800_comentarios_atividade_os_vue__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__("./views/m00800-comentarios-atividade-os.vue");
+/* harmony import */ var _views_m00900_comentarios_os_vue__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__("./views/m00900-comentarios-os.vue");
+/* harmony import */ var _views_m01000_midias_os_vue__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__("./views/m01000-midias-os.vue");
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__("./store.js");
 
         let applicationCheckPlatform = __webpack_require__("../node_modules/tns-core-modules/application/application.js");
         if (applicationCheckPlatform.android && !global["__snapshot"]) {
             __webpack_require__("../node_modules/tns-core-modules/ui/frame/frame.js");
 __webpack_require__("../node_modules/tns-core-modules/ui/frame/activity.js");
-__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '/home/techpar/Documentos/braselco/bwda-nativescript/app/bgservice.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__("./activities/NotificationActivity.js");
+__webpack_require__("./notifications/MyJobService.js");
         }
 
         
@@ -3760,14 +3789,8 @@ __webpack_require__(!(function webpackMissingModule() { var e = new Error("Canno
         
 
 
-var Observable = __webpack_require__("../node_modules/tns-core-modules/data/observable/observable.js").Observable;
-
-var application = __webpack_require__("../node_modules/tns-core-modules/application/application.js");
-
-var utils = __webpack_require__("../node_modules/tns-core-modules/utils/utils.js");
-
-var jobScheduler = __webpack_require__("./notifications/job-scheduler.js"); //https://nativescript-vue.org/en/docs/getting-started/vue-devtools/
-
+_main_view_model__WEBPACK_IMPORTED_MODULE_2__["createViewModel"].createViewModel();
+console.log("depois do job-scheduler"); //https://nativescript-vue.org/en/docs/getting-started/vue-devtools/
 
 
 const env = "development" || false;
@@ -3780,7 +3803,7 @@ const {
 console.log(`BWDA5 mobile version [${version}]`);
 
 if (env == "development") {
-  nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(nativescript_vue_devtools__WEBPACK_IMPORTED_MODULE_3___default.a, {
     // host: "192.168.0.109"
     // host: "192.168.0.6"
     host: "192.168.0.22" // host: "192.168.254.223"
@@ -3789,7 +3812,7 @@ if (env == "development") {
 }
 
 
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_3___default.a);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(nativescript_ui_sidedrawer_vue__WEBPACK_IMPORTED_MODULE_4___default.a);
 nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.registerElement('CardView', () => __webpack_require__("../node_modules/nativescript-cardview/cardview.js").CardView); // reusable components
 
 
@@ -3816,33 +3839,32 @@ nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.registerElement('CardVie
 
  // reusable components
 
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-app-shell", _components_bwda_app_shell_vue__WEBPACK_IMPORTED_MODULE_4__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-resumo-os", _components_bwda_resumo_os_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-detalhes-adicionais-os", _components_bwda_detalhes_adicionais_os_vue__WEBPACK_IMPORTED_MODULE_6__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-atividade", _components_bwda_atividade_vue__WEBPACK_IMPORTED_MODULE_7__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-checklist", _components_bwda_checklist_vue__WEBPACK_IMPORTED_MODULE_8__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-checklist-item", _components_bwda_checklist_item_vue__WEBPACK_IMPORTED_MODULE_9__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-checklist-item-resposta", _components_bwda_checklist_item_resposta_vue__WEBPACK_IMPORTED_MODULE_10__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-date-picker", _components_bwda_date_picker_vue__WEBPACK_IMPORTED_MODULE_11__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-time-picker", _components_bwda_time_picker_vue__WEBPACK_IMPORTED_MODULE_12__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-sim-nao-na", _components_bwda_sim_nao_na_vue__WEBPACK_IMPORTED_MODULE_13__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-get-picture", _components_bwda_get_picture_vue__WEBPACK_IMPORTED_MODULE_14__["default"]); // views
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-app-shell", _components_bwda_app_shell_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-resumo-os", _components_bwda_resumo_os_vue__WEBPACK_IMPORTED_MODULE_6__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-detalhes-adicionais-os", _components_bwda_detalhes_adicionais_os_vue__WEBPACK_IMPORTED_MODULE_7__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-atividade", _components_bwda_atividade_vue__WEBPACK_IMPORTED_MODULE_8__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-checklist", _components_bwda_checklist_vue__WEBPACK_IMPORTED_MODULE_9__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-checklist-item", _components_bwda_checklist_item_vue__WEBPACK_IMPORTED_MODULE_10__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-checklist-item-resposta", _components_bwda_checklist_item_resposta_vue__WEBPACK_IMPORTED_MODULE_11__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-date-picker", _components_bwda_date_picker_vue__WEBPACK_IMPORTED_MODULE_12__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-time-picker", _components_bwda_time_picker_vue__WEBPACK_IMPORTED_MODULE_13__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-sim-nao-na", _components_bwda_sim_nao_na_vue__WEBPACK_IMPORTED_MODULE_14__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("bwda-get-picture", _components_bwda_get_picture_vue__WEBPACK_IMPORTED_MODULE_15__["default"]); // views
 
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00100Login", _views_m00100_login_vue__WEBPACK_IMPORTED_MODULE_15__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00200LandingDashboard", _views_m00200_landing_dashboard_vue__WEBPACK_IMPORTED_MODULE_16__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00300AgendaOS", _views_m00300_agenda_de_os_vue__WEBPACK_IMPORTED_MODULE_17__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00400Mapa", _views_m00400_mapa_vue__WEBPACK_IMPORTED_MODULE_18__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00500ListagemPrioritaria", _views_m00500_listagem_prioritaria_vue__WEBPACK_IMPORTED_MODULE_19__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00600DetalheOS", _views_m00600_detalhe_de_os_vue__WEBPACK_IMPORTED_MODULE_20__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00700ChecklistOS", _views_m00700_checklist_os_vue__WEBPACK_IMPORTED_MODULE_21__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00800ComentariosAtividade", _views_m00800_comentarios_atividade_os_vue__WEBPACK_IMPORTED_MODULE_22__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00900ComentariosOS", _views_m00900_comentarios_os_vue__WEBPACK_IMPORTED_MODULE_23__["default"]);
-nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M01000MidiasOS", _views_m01000_midias_os_vue__WEBPACK_IMPORTED_MODULE_24__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00100Login", _views_m00100_login_vue__WEBPACK_IMPORTED_MODULE_16__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00200LandingDashboard", _views_m00200_landing_dashboard_vue__WEBPACK_IMPORTED_MODULE_17__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00300AgendaOS", _views_m00300_agenda_de_os_vue__WEBPACK_IMPORTED_MODULE_18__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00400Mapa", _views_m00400_mapa_vue__WEBPACK_IMPORTED_MODULE_19__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00500ListagemPrioritaria", _views_m00500_listagem_prioritaria_vue__WEBPACK_IMPORTED_MODULE_20__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00600DetalheOS", _views_m00600_detalhe_de_os_vue__WEBPACK_IMPORTED_MODULE_21__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00700ChecklistOS", _views_m00700_checklist_os_vue__WEBPACK_IMPORTED_MODULE_22__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00800ComentariosAtividade", _views_m00800_comentarios_atividade_os_vue__WEBPACK_IMPORTED_MODULE_23__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M00900ComentariosOS", _views_m00900_comentarios_os_vue__WEBPACK_IMPORTED_MODULE_24__["default"]);
+nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("M01000MidiasOS", _views_m01000_midias_os_vue__WEBPACK_IMPORTED_MODULE_25__["default"]);
 nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.config.silent = false;
 nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a.config.debug = true;
-jobScheduler.scheduleJob(utils.ad.getApplicationContext());
 new nativescript_vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  store: _store__WEBPACK_IMPORTED_MODULE_25__["store"],
+  store: _store__WEBPACK_IMPORTED_MODULE_26__["store"],
   name: "bwda",
   template: `
 		<Frame transition="slideLeft">
@@ -4644,6 +4666,57 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_bwda_time_picker_vue_vue_type_template_id_35b8ed8e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./main-page.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+function init() {
+  var createViewModel = __webpack_require__("./main-view-model.js").createViewModel; // var page = args.object;
+  //  page.bindingContext = createViewModel();
+
+}
+
+exports.init = init;
+
+/***/ }),
+
+/***/ "./main-view-model.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var Observable = __webpack_require__("../node_modules/tns-core-modules/data/observable/observable.js").Observable;
+
+var application = __webpack_require__("../node_modules/tns-core-modules/application/application.js");
+
+var utils = __webpack_require__("../node_modules/tns-core-modules/utils/utils.js");
+
+var jobScheduler = __webpack_require__("./notifications/job-scheduler.js"); //function getMessage(counter) {
+//  return counter;
+//}
+
+
+function createViewModel() {
+  jobScheduler.scheduleJob(utils.ad.getApplicationContext()); // return viewModel;
+}
+
+exports.createViewModel = createViewModel;
+
+/***/ }),
+
+/***/ "./notifications/MyJobService.js":
+/***/ (function(module, exports) {
+
+android.app.job.JobService.extend("com.tns.notifications.MyJobService", {
+  onStartJob: function (params) {
+    console.log("Executando Job ...");
+    console.log("Rodando JOb ...");
+    return false;
+  },
+  onStopJob: function () {
+    console.log("Stopping job ...");
+  }
+});
 
 /***/ }),
 

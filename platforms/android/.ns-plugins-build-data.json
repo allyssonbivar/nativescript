@@ -1,35 +1,36 @@
 {
 	"nativescript-android-utils": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-android-utils/platforms/android/androidutils.aar": "d8f014a195b816b3738a011e776a53983737334f"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-android-utils/platforms/android/androidutils.aar": "d8f014a195b816b3738a011e776a53983737334f"
 	},
 	"nativescript-camera": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-camera/platforms/android/include.gradle": "3b224fc93af3e858d204fe68c65871f0d0587594",
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-camera/platforms/android/nativescript_camera.aar": "e37d4be0bcbf4f135092570d7c433f0bfe3c184d"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-camera/platforms/android/include.gradle": "4945565d2e438104a7124474e0975db3692b0b02",
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-camera/platforms/android/nativescript_camera.aar": "e37d4be0bcbf4f135092570d7c433f0bfe3c184d"
 	},
 	"nativescript-cardview": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-cardview/platforms/android/include.gradle": "43c459659c6cfe153e03d237153f1496855e9ec0"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-cardview/platforms/android/include.gradle": "43c459659c6cfe153e03d237153f1496855e9ec0"
 	},
 	"nativescript-geolocation": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-geolocation/platforms/android/nativescript_geolocation.aar": "8d2a9d9e9492fb3a2321eb2343881330be4de2e3",
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-geolocation/platforms/android/include.gradle": "b4197a7b5556ea5de03f08097c27f72ec4d64c76"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-geolocation/platforms/android/include.gradle": "b4197a7b5556ea5de03f08097c27f72ec4d64c76",
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-geolocation/platforms/android/nativescript_geolocation.aar": "8d2a9d9e9492fb3a2321eb2343881330be4de2e3"
 	},
 	"nativescript-mapbox": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-mapbox/platforms/android/nativescript_mapbox.aar": "8d59ab98ebef095cc5de08346b814777e37957da",
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-mapbox/platforms/android/include.gradle": "89df9af9f90f6d8b904a7b1418de9c1affafe2d2"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-mapbox/platforms/android/include.gradle": "89df9af9f90f6d8b904a7b1418de9c1affafe2d2",
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-mapbox/platforms/android/nativescript_mapbox.aar": "8d59ab98ebef095cc5de08346b814777e37957da"
 	},
 	"nativescript-socket.io": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-socket.io/platforms/android/AndroidManifest.xml": "9741d925308f7277734e46001e8dc12b4e0c2529",
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-socket.io/platforms/android/include.gradle": "027b30edeb6741f0b8f0c2bbafbfea69ce6ae1e2"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-socket.io/platforms/android/AndroidManifest.xml": "9741d925308f7277734e46001e8dc12b4e0c2529",
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-socket.io/platforms/android/include.gradle": "7a8a45319157113f76f8c777be4227069fa4188d",
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-socket.io/platforms/android/nativescript_socket.io.aar": "43f945d1e188b8875a909c2721897500c2a144e0"
 	},
 	"nativescript-ui-sidedrawer": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-ui-sidedrawer/platforms/android/TNSSideDrawer-release.aar": "331c897ac7cc256daac53036a1bd48ba8f2380f5",
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-ui-sidedrawer/platforms/android/typings/sidedrawer.d.ts": "91ef64e6d1864556d27ded671283ee4a05b7c4eb"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-ui-sidedrawer/platforms/android/TNSSideDrawer-release.aar": "331c897ac7cc256daac53036a1bd48ba8f2380f5",
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-ui-sidedrawer/platforms/android/typings/sidedrawer.d.ts": "91ef64e6d1864556d27ded671283ee4a05b7c4eb"
 	},
 	"nativescript-ui-core": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-ui-core/platforms/android/typings/core.d.ts": "5c032652edfa1719ef8c8190fc0f66d3b1c313c2",
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/nativescript-ui-core/platforms/android/TNSCore-release.aar": "cce16a86c2a6f56ca7243ed8db86b004ecb0016e"
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-ui-core/platforms/android/TNSCore-release.aar": "cce16a86c2a6f56ca7243ed8db86b004ecb0016e",
+		"/home/techpar/Documentos/native/nativescript/node_modules/nativescript-ui-core/platforms/android/typings/core.d.ts": "5c032652edfa1719ef8c8190fc0f66d3b1c313c2"
 	},
 	"tns-core-modules-widgets": {
-		"/home/techpar/Documentos/braselco/bwda-nativescript/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "e926037162f17e77024b1d8c0c2b439f0247c903"
+		"/home/techpar/Documentos/native/nativescript/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "e926037162f17e77024b1d8c0c2b439f0247c903"
 	}
 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "/home/techpar/Documentos/native/nativescript/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/home/techpar/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.5.0.aar/6eaf060b6c1b0b14660860f54775efc4/res/values-ca/values-ca.xml",

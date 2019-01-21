@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/techpar/Documentos/braselco/bwda-nativescript/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
+            "outputFile": "/home/techpar/Documentos/native/nativescript/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
             "map": [
                 {
                     "source": "/home/techpar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/87e9ffc87eafb581f6fdb546939a27cf/res/values-cs/values.xml",
